@@ -1,6 +1,7 @@
 import { tool } from "langchain";
 import { z } from "zod";
 import { getDocuments } from "../ingest/ingestDocs";
+import { logTool } from "../utils/logger";
 
 const schema = z.object({
   query: z.string(),
@@ -8,6 +9,8 @@ const schema = z.object({
 
 export const retrieverTool = tool(
   async (input) => {
+    logTool("retrieverTool", input);
+
     const { query } = schema.parse(input);
 
     const docs = getDocuments();
