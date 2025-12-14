@@ -4,7 +4,7 @@ An **agentic AI backend** built using **LangChain (TypeScript)** that demonstrat
 
 ---
 
-## 🚀 Features
+## Features
 
 * **Agentic AI** using LangChain `createAgent`
 * **Multiple Tools** with structured schemas
@@ -40,7 +40,7 @@ The agent dynamically decides **which tools to invoke** based on user intent and
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 src/
@@ -65,7 +65,7 @@ src/
 
 ---
 
-## 🛠 Tools Implemented
+## Tools Implemented
 
 | Tool Name           | Purpose                                               |
 | ------------------- | ----------------------------------------------------- |
@@ -83,7 +83,7 @@ Each tool:
 
 ---
 
-## 📥 API Endpoints
+## API Endpoints
 
 ### 🔹 Health Check
 
@@ -163,7 +163,7 @@ This project is designed to be consumed by **automation tools** such as **n8n**:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 npm install
