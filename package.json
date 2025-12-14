@@ -1,0 +1,32 @@
+{
+  "name": "langchain-agentic-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@langchain/community": "^1.1.0",
+    "@langchain/core": "^1.1.5",
+    "@langchain/openai": "^1.2.0",
+    "@langchain/textsplitters": "^1.0.1",
+    "chromadb": "^3.1.7",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "langchain": "^1.2.0",
+    "openai": "^6.10.0",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
