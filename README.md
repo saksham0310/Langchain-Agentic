@@ -166,7 +166,7 @@ This project is designed to be consumed by **automation tools** such as **n8n**:
 ## Getting Started
 
 ```bash
-npm install
+npm install --legacy-peer-deps
 npm start
 ```
 
